@@ -134,7 +134,7 @@ const stopTimer = () => {
     entryContainer.textContent = "";
 }
 
-function pad(unit) {
+const pad = (unit) => {
     return (("0") + unit).length > 2 ? unit : "0" + unit;
 }
 
